@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/openshift3/jenkins-slave-base-rhel7
+FROM openshift3/jenkins-slave-base-centos7
 
 ENV OPENSHIFT_JENKINS_JVM_ARCH x86_64
 ENV JAVA_MAX_HEAP_PARAM -Xmx512m
